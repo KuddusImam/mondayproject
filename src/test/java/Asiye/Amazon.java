@@ -17,7 +17,7 @@ public class Amazon {
 
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
-
+//for test on GitHub
         driver.get("https://amazon.com");
         driver.findElement(By.id("twotabsearchtextbox")).sendKeys("soccer ball");
         driver.findElement(By.className("nav-input")).click();
